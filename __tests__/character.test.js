@@ -37,4 +37,11 @@ describe('Character', () => {
     expect(character.attackDamage).toBe(20);
   });
 
+  test('should be able to attack another character', () => {});
+
+  test('should be able to take damage', () => {});
+
+
+  test('should be able to die', () => {});
+
 });

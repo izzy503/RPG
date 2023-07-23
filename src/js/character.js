@@ -6,14 +6,14 @@ export default class Character {
     this.armorClass = armorClass;
   }
 
-  attack(target) {
-    console.log(`${this.name}' attacks ${target.name} for ${this.attackDamage} damage! `);
-    target.recieveDamage(this.attackDamage);
-  }
-
   recieveDamage(damage) {
     this.health -= damage;
     console.log(`${this.name} recieves $damage} damage. Current health: ${this.health}`);
+  }
+
+  attack(target) {
+    console.log(`${this.name}' attacks ${target.name} for ${this.attackDamage} damage! `);
+    target.recieveDamage(this.attackDamage);
   }
 
   isAlive() {
