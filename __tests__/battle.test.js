@@ -1,4 +1,4 @@
-mport Battle from '../src/js/battle.js';
+import Battle from '../src/js/battle.js';
 
 describe('Character', () => {
   
